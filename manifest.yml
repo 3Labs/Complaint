@@ -1,0 +1,12 @@
+modules:
+  macro:
+    - key: complaint-hello-world
+      function: main
+      title: Complaint
+      description: Complaint Handling App
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: 'ari:cloud:ecosystem::app/ad60d28c-eac3-42ec-b6b6-d395bb1a3e41'
+  name: Complaint
