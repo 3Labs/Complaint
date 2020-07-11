@@ -7,6 +7,11 @@ modules:
   function:
     - key: main
       handler: index.run
+permissions:
+    scopes:
+    - 'write:confluence-content'
+    - 'read:confluence-content.summary'
 app:
   id: 'ari:cloud:ecosystem::app/ad60d28c-eac3-42ec-b6b6-d395bb1a3e41'
   name: Complaint
+
