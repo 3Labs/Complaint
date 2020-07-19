@@ -18,7 +18,7 @@ const App = () => {
 
   return (
     <Fragment>
-      <Text>Hello world!</Text>
+      <Text>Number of complaints to be handled: {comments.length}</Text>
     </Fragment>
   );
 };
